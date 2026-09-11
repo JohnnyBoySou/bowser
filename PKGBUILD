@@ -9,7 +9,7 @@ license=('MIT')
 depends=('webkit2gtk-4.1' 'gtk3')
 makedepends=('go')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
-sha256sums=('SKIP')
+sha256sums=('732f1fef11e1412d24ea04b199968e95732d8cd9267339994499a71721020f90')
 
 build() {
     cd "$pkgname-$pkgver"
